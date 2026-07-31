@@ -1,0 +1,49 @@
+:root {
+  /* Backgrounds */
+  --color-bg-page: #0a0d14;
+  --color-bg-surface: #10141d;
+  --color-bg-elevated: #161b26;
+  --color-bg-inset: #0c101a;
+
+  /* Borders */
+  --color-border: #222a38;
+  --color-border-strong: #2c3648;
+
+  /* Text */
+  --color-text-primary: #e7ecf5;
+  --color-text-secondary: #9aa6ba;
+  --color-text-muted: #5f6b7e;
+
+  /* Accent */
+  --color-accent: #22d3ee;
+  --color-accent-dim: rgba(34, 211, 238, 0.16);
+
+  /* Chart */
+  --chart-healthy: #22d3ee;
+  --chart-healthy-dim: rgba(34, 211, 238, 0.14);
+  --chart-blocked: #fb5c6c;
+  --chart-blocked-dim: rgba(251, 92, 108, 0.16);
+  --chart-blocked-soft: #ff9aa6;
+  --chart-grid: #1d2433;
+  --chart-text: #77839a;
+
+  /* Radius */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+
+  /* Spacing */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --space-12: 48px;
+  --space-16: 64px;
+
+  /* Typography */
+  --font-mono: var(--font-geist-mono), ui-monospace, monospace;
+}

@@ -1,0 +1,183 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-10);
+}
+
+.row {
+  display: flex;
+  gap: var(--space-8);
+  align-items: stretch;
+}
+
+@media (max-width: 900px) {
+  .row {
+    flex-direction: column;
+  }
+}
+
+.left {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.right {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-10);
+  min-width: 0;
+}
+
+@media (max-width: 900px) {
+  .left,
+  .right {
+    width: 100%;
+  }
+}
+
+.panel {
+  background: var(--color-bg-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: var(--space-6);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  min-width: 0;
+}
+
+.panelTitle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-3);
+  min-height: 24px;
+}
+
+.panelTitleText {
+  color: var(--color-text-secondary);
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
+.panelTitleHint {
+  color: var(--color-text-muted);
+  font-size: 12px;
+}
+
+.statusBadge {
+  font-size: 12px;
+  font-family: var(--font-mono);
+  color: var(--chart-healthy);
+  border: 1px solid var(--color-border);
+  border-radius: 999px;
+  padding: 2px 10px;
+  background: var(--color-bg-inset);
+  transition: color 150ms ease, border-color 150ms ease;
+  white-space: nowrap;
+}
+
+.statusBadge[data-blockage-active] {
+  color: var(--chart-blocked);
+  border-color: var(--chart-blocked);
+}
+
+.heartPanel {
+  flex: 1;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+
+.heartDiagramWrap {
+  flex: 1;
+  min-height: 0;
+  width: 100%;
+}
+
+.heartLabels {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: end;
+  width: 100%;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--color-text-muted);
+  margin-top: var(--space-2);
+}
+
+.proximalLabel {
+  justify-self: start;
+}
+
+.blockageLabel {
+  justify-self: center;
+  color: var(--chart-blocked);
+  background: var(--chart-blocked-dim);
+  border-radius: 999px;
+  padding: 2px 10px;
+}
+
+.distalLabel {
+  justify-self: end;
+}
+
+.pressureSection {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-6);
+}
+
+.chartPanel {
+  justify-content: flex-start;
+}
+
+.infoPanel {
+  gap: var(--space-3);
+}
+
+.chartFootnote {
+  color: var(--color-text-muted);
+  font-size: 13px;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-4) var(--space-6);
+  color: var(--color-text-secondary);
+  font-size: 13px;
+  align-items: center;
+  margin-top: var(--space-1);
+}
+
+.legendItem {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.swatch {
+  width: 14px;
+  height: 14px;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+.swatchHealthy {
+  background: var(--chart-healthy);
+}
+
+.swatchBlocked {
+  background: var(--chart-blocked);
+}
+
+.swatchHover {
+  background: var(--color-accent);
+  box-shadow: 0 0 8px var(--color-accent);
+}

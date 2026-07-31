@@ -1,0 +1,89 @@
+.page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  flex: 1;
+  width: 100%;
+  margin: 0;
+  padding: var(--space-16) 2% var(--space-12);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-16);
+}
+
+.rightText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: right;
+  justify-content: center;
+  gap: var(--space-4);
+  max-width: 100%;
+}
+
+.eyebrow {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--chart-healthy);
+}
+
+.title {
+  font-size: clamp(1.8rem, 4vw, 2.8rem);
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  font-weight: 500;
+  max-width: 22ch;
+}
+
+.lede {
+  color: var(--color-text-secondary);
+  font-size: 1.05rem;
+  line-height: 1.7;
+  max-width: 62ch;
+}
+
+.stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-6) var(--space-10);
+  margin-top: var(--space-4);
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+}
+
+.statValue {
+  font-family: var(--font-mono);
+  font-size: 1.9rem;
+  font-weight: 600;
+  color: var(--color-text-primary);
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+}
+
+.statUnit {
+  font-size: 0.8rem;
+  color: var(--color-text-muted);
+  font-weight: 400;
+}
+
+.statLabel {
+  font-size: 12px;
+  color: var(--color-text-muted);
+}
+
+.footer {
+  border-top: 1px solid var(--color-border);
+  padding-top: var(--space-6);
+  color: var(--color-text-muted);
+  font-size: 12px;
+}

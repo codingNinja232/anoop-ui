@@ -1,0 +1,424 @@
+{
+  "arterialLengthMm": 100,
+  "proximalPressure": 100,
+  "slopePerMm": 0.5,
+  "transitionWidthMm": 12,
+  "blockages": [
+    {
+      "startMm": 24,
+      "endMm": 36,
+      "dropMmHg": 20
+    },
+    {
+      "startMm": 54,
+      "endMm": 66,
+      "dropMmHg": 30
+    }
+  ],
+  "points": [
+    {
+      "position": 0,
+      "pressure": 100
+    },
+    {
+      "position": 1,
+      "pressure": 99.5
+    },
+    {
+      "position": 2,
+      "pressure": 99
+    },
+    {
+      "position": 3,
+      "pressure": 98.5
+    },
+    {
+      "position": 4,
+      "pressure": 98
+    },
+    {
+      "position": 5,
+      "pressure": 97.5
+    },
+    {
+      "position": 6,
+      "pressure": 97
+    },
+    {
+      "position": 7,
+      "pressure": 96.5
+    },
+    {
+      "position": 8,
+      "pressure": 96
+    },
+    {
+      "position": 9,
+      "pressure": 95.5
+    },
+    {
+      "position": 10,
+      "pressure": 95
+    },
+    {
+      "position": 11,
+      "pressure": 94.5
+    },
+    {
+      "position": 12,
+      "pressure": 94
+    },
+    {
+      "position": 13,
+      "pressure": 93.5
+    },
+    {
+      "position": 14,
+      "pressure": 93
+    },
+    {
+      "position": 15,
+      "pressure": 92.5
+    },
+    {
+      "position": 16,
+      "pressure": 92
+    },
+    {
+      "position": 17,
+      "pressure": 91.5
+    },
+    {
+      "position": 18,
+      "pressure": 91
+    },
+    {
+      "position": 19,
+      "pressure": 90.5
+    },
+    {
+      "position": 20,
+      "pressure": 90
+    },
+    {
+      "position": 21,
+      "pressure": 89.5
+    },
+    {
+      "position": 22,
+      "pressure": 89
+    },
+    {
+      "position": 23,
+      "pressure": 88.5
+    },
+    {
+      "position": 24,
+      "pressure": 88
+    },
+    {
+      "position": 25,
+      "pressure": 87.1
+    },
+    {
+      "position": 26,
+      "pressure": 85.5
+    },
+    {
+      "position": 27,
+      "pressure": 83.4
+    },
+    {
+      "position": 28,
+      "pressure": 80.8
+    },
+    {
+      "position": 29,
+      "pressure": 78
+    },
+    {
+      "position": 30,
+      "pressure": 75
+    },
+    {
+      "position": 31,
+      "pressure": 72
+    },
+    {
+      "position": 32,
+      "pressure": 69.2
+    },
+    {
+      "position": 33,
+      "pressure": 66.6
+    },
+    {
+      "position": 34,
+      "pressure": 64.5
+    },
+    {
+      "position": 35,
+      "pressure": 62.9
+    },
+    {
+      "position": 36,
+      "pressure": 62
+    },
+    {
+      "position": 37,
+      "pressure": 61.5
+    },
+    {
+      "position": 38,
+      "pressure": 61
+    },
+    {
+      "position": 39,
+      "pressure": 60.5
+    },
+    {
+      "position": 40,
+      "pressure": 60
+    },
+    {
+      "position": 41,
+      "pressure": 59.5
+    },
+    {
+      "position": 42,
+      "pressure": 59
+    },
+    {
+      "position": 43,
+      "pressure": 58.5
+    },
+    {
+      "position": 44,
+      "pressure": 58
+    },
+    {
+      "position": 45,
+      "pressure": 57.5
+    },
+    {
+      "position": 46,
+      "pressure": 57
+    },
+    {
+      "position": 47,
+      "pressure": 56.5
+    },
+    {
+      "position": 48,
+      "pressure": 56
+    },
+    {
+      "position": 49,
+      "pressure": 55.5
+    },
+    {
+      "position": 50,
+      "pressure": 55
+    },
+    {
+      "position": 51,
+      "pressure": 54.5
+    },
+    {
+      "position": 52,
+      "pressure": 54
+    },
+    {
+      "position": 53,
+      "pressure": 53.5
+    },
+    {
+      "position": 54,
+      "pressure": 53
+    },
+    {
+      "position": 55,
+      "pressure": 51.9
+    },
+    {
+      "position": 56,
+      "pressure": 49.8
+    },
+    {
+      "position": 57,
+      "pressure": 46.8
+    },
+    {
+      "position": 58,
+      "pressure": 43.2
+    },
+    {
+      "position": 59,
+      "pressure": 39.2
+    },
+    {
+      "position": 60,
+      "pressure": 35
+    },
+    {
+      "position": 61,
+      "pressure": 30.8
+    },
+    {
+      "position": 62,
+      "pressure": 26.8
+    },
+    {
+      "position": 63,
+      "pressure": 23.2
+    },
+    {
+      "position": 64,
+      "pressure": 20.2
+    },
+    {
+      "position": 65,
+      "pressure": 18.1
+    },
+    {
+      "position": 66,
+      "pressure": 17
+    },
+    {
+      "position": 67,
+      "pressure": 16.5
+    },
+    {
+      "position": 68,
+      "pressure": 16
+    },
+    {
+      "position": 69,
+      "pressure": 15.5
+    },
+    {
+      "position": 70,
+      "pressure": 15
+    },
+    {
+      "position": 71,
+      "pressure": 14.5
+    },
+    {
+      "position": 72,
+      "pressure": 14
+    },
+    {
+      "position": 73,
+      "pressure": 13.5
+    },
+    {
+      "position": 74,
+      "pressure": 13
+    },
+    {
+      "position": 75,
+      "pressure": 12.5
+    },
+    {
+      "position": 76,
+      "pressure": 12
+    },
+    {
+      "position": 77,
+      "pressure": 11.5
+    },
+    {
+      "position": 78,
+      "pressure": 11
+    },
+    {
+      "position": 79,
+      "pressure": 10.5
+    },
+    {
+      "position": 80,
+      "pressure": 10
+    },
+    {
+      "position": 81,
+      "pressure": 9.5
+    },
+    {
+      "position": 82,
+      "pressure": 9
+    },
+    {
+      "position": 83,
+      "pressure": 8.5
+    },
+    {
+      "position": 84,
+      "pressure": 8
+    },
+    {
+      "position": 85,
+      "pressure": 7.5
+    },
+    {
+      "position": 86,
+      "pressure": 7
+    },
+    {
+      "position": 87,
+      "pressure": 6.5
+    },
+    {
+      "position": 88,
+      "pressure": 6
+    },
+    {
+      "position": 89,
+      "pressure": 5.5
+    },
+    {
+      "position": 90,
+      "pressure": 5
+    },
+    {
+      "position": 91,
+      "pressure": 4.5
+    },
+    {
+      "position": 92,
+      "pressure": 4
+    },
+    {
+      "position": 93,
+      "pressure": 3.5
+    },
+    {
+      "position": 94,
+      "pressure": 3
+    },
+    {
+      "position": 95,
+      "pressure": 2.5
+    },
+    {
+      "position": 96,
+      "pressure": 2
+    },
+    {
+      "position": 97,
+      "pressure": 1.5
+    },
+    {
+      "position": 98,
+      "pressure": 1
+    },
+    {
+      "position": 99,
+      "pressure": 0.5
+    },
+    {
+      "position": 100,
+      "pressure": 0
+    }
+  ]
+}
