@@ -11,6 +11,8 @@ import styles from "./heart-diagram.module.css";
 const LAD_PATH =
   "M 318 112 C 318 170 306 215 304 258 C 302 292 312 308 322 322";
 
+const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+
 interface HeartDiagramProps {
   hoverPositionMm: number | null;
 }
@@ -56,7 +58,7 @@ export function HeartDiagram({ hoverPositionMm }: HeartDiagramProps) {
 
       <image
         className={styles.anatomyImage}
-        href="/heart-anatomy.jpg"
+        href={`${BASE_PATH}/heart-anatomy.jpg`}
         x="0"
         y="0"
         width="645"
